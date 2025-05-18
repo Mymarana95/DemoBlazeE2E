@@ -38,7 +38,7 @@ public class DemoblazePurchaseTest {
         Thread.sleep(2000);
         driver.switchTo().alert().accept();
 
-        // Ir al carrito
+        // Ir al carrito otra vez
         driver.findElement(By.id("cartur")).click();
         Thread.sleep(2000);
 
